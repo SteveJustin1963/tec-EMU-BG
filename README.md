@@ -19,6 +19,8 @@ My Eprom Emulator:
 
 The files are here:
 
+https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Emulator.rar
+
 Inside you will find the *Unsigned* driver which needs to be installed. If you're on win10 you're in for a frustrating 10minutes! A snappy google will show you how to do it. Note: The procedure changes with most major updates so look for a recent guide. This will probably have to be done after every major update as windows will kick out any unsigned drivers.
 
 Included in the RAR archive are:
@@ -43,29 +45,35 @@ TEC Firmware!
 
 I've made a little change to fix the keypad layout. Feels more intuitive. Monitor 2 ROM is here:
 
+https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/MON2BV.Bin
 
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/NewKeypad_large.jpg)
 
 The changes to the code are:
 
 Redirecting the NMI address (0066h) to 'KeyRemap' (06E0h - Empty area at the end of the ROM). It is important to pad the ROM with data to keep all the addresses in their correct location.
 
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/NMI_large.jpg)
 
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/KeyRemap_a10da5b3-1169-4591-a98e-7edc09a49bbc_large.jpg)
 
 
 
 The code is just a lookup table to convert the Key data to a new value. Feel free to change the data at offset 0700h to whatever key organisation you like!
 
 Snake! - 8x8 led matrix and ~4mhz xtal required.
-
+https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Snake.rar
  
 
 My TEC Video Card:
 
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/TEC1D_8x8_large.jpg)
 
-
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/space_large.jpg)
 
 
 A work in progress. The latest FPGA configuration file is HERE
+https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/RAM_bitmap.bin
 
 The address and port breakdown is as follows:
 
@@ -139,13 +147,15 @@ B1 = Card Inserted (1=Card inserted)
 Peripheral address 1
 SPI Data In or Out. Auto Xfer on writing to Peripheral Port2
 Serial Port:
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/49620918_10155966840465869_8317473652132020224_n.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/50416223_10155988682225869_3778409522020745216_n.jpg)
 
 PS2 Port:
 
  
 
 Speech Board:
-
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/speech_large.jpg)
 
 
  
