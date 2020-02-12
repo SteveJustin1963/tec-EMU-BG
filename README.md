@@ -14,6 +14,7 @@ A page centred around the Talking Electronics Computer, an Australian designed Z
 
 My Eprom Emulator:
 
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/EPROMemu_large.jpg)
 
 
 The files are here:
