@@ -9,21 +9,20 @@ https://www.facebook.com/groups/AusVintage/search/?query=Eprom%20Emulator&epa=SE
 
 ## Copied from BG web site
 
-
 A page centred around the Talking Electronics Computer, an Australian designed Z80 based learning computer from the 80's.
 
-My Eprom Emulator:
+## My Eprom Emulator:
 
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/EPROMemu_large.jpg)
 
 
-The files are here:
+## The files are here:
 
 https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Emulator.rar
 
 Inside you will find the *Unsigned* driver which needs to be installed. If you're on win10 you're in for a frustrating 10minutes! A snappy google will show you how to do it. Note: The procedure changes with most major updates so look for a recent guide. This will probably have to be done after every major update as windows will kick out any unsigned drivers.
 
-Included in the RAR archive are:
+## Included in the RAR archive are:
 
 Z80Upload - This is the tool to send a .bin file to the Emulator. Eg. Z80Upload Foo.bin This will automatically hold your Z80 in a reset state, upload the file then release for the TEC to boot the new binary file. There's no offsets implemented so the file will write to the RAM on the emulator from $0000. 
 
@@ -39,9 +38,8 @@ I recommend Geany as an IDE. Great formatting for assembly, and you an integrate
 
 Hope this gets you started!
 
- 
 
-TEC Firmware!
+## TEC Firmware!
 
 I've made a little change to fix the keypad layout. Feels more intuitive. Monitor 2 ROM is here:
 
@@ -49,7 +47,7 @@ https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/MON2BV.Bin
 
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/NewKeypad_large.jpg)
 
-The changes to the code are:
+## The changes to the code are:
 
 Redirecting the NMI address (0066h) to 'KeyRemap' (06E0h - Empty area at the end of the ROM). It is important to pad the ROM with data to keep all the addresses in their correct location.
 
@@ -57,15 +55,14 @@ Redirecting the NMI address (0066h) to 'KeyRemap' (06E0h - Empty area at the end
 
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/KeyRemap_a10da5b3-1169-4591-a98e-7edc09a49bbc_large.jpg)
 
-
-
 The code is just a lookup table to convert the Key data to a new value. Feel free to change the data at offset 0700h to whatever key organisation you like!
 
 Snake! - 8x8 led matrix and ~4mhz xtal required.
+
 https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Snake.rar
  
 
-My TEC Video Card:
+## My TEC Video Card:
 
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/TEC1D_8x8_large.jpg)
 
@@ -73,9 +70,10 @@ My TEC Video Card:
 
 
 A work in progress. The latest FPGA configuration file is HERE
+
 https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/RAM_bitmap.bin
 
-The address and port breakdown is as follows:
+## The address and port breakdown is as follows:
 
 Base Address of Expansion socket = 0x1000
 
@@ -91,7 +89,7 @@ s=Scroll Offset
 32x32 Character off screen area located at 0x1400-17FF
 1 Page = 32x64 Characters.
 
-When in Mode1: - Character RAM Access
+## When in Mode1: - Character RAM Access
 2kbytes Character RAM are mapped to 0x1000-0x17FF
 Charaters are drawn as:
 0bxxxxxxxx ;Byte 0
@@ -103,7 +101,7 @@ Charaters are drawn as:
 0bxxxxxxxx ;Byte 6
 0bxxxxxxxx ;Byte 7
 
-When in Mode2: - Spirte Attribute Access
+## When in Mode2: - Spirte Attribute Access
 5 Sprites available
 0x1000 - Sprite1 X location
 0x1001 - Sprite1 Y location
@@ -120,7 +118,7 @@ Down to.....
 Down to.....
 0x101D - Sprite10 Tile Pointer
 
-When in Mode3: - Sprite RAM Access
+## When in Mode3: - Sprite RAM Access
 0x1000 - 0x1007 Sprite1 Character Data (Tiles)
 Down to.....
 0x13F0 - 0x13FF Sprite 128 Character Data
@@ -135,7 +133,7 @@ Peripherals : Port5=Peripheral Select, Port6=Data
 
 Interrupt Generator
 
-SD Port:
+## SD Port:
 
 Peripheral address 0 - Write
 B0=SPI speed (0=100khz,1=12.5mhz).
@@ -150,12 +148,8 @@ Serial Port:
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/49620918_10155966840465869_8317473652132020224_n.jpg)
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/50416223_10155988682225869_3778409522020745216_n.jpg)
 
-PS2 Port:
+## PS2 Port:
 
- 
-
-Speech Board:
+## Speech Board:
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/speech_large.jpg)
 
-
- 
