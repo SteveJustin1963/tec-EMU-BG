@@ -14,7 +14,7 @@ A page centred around the Talking Electronics Computer, an Australian designed Z
 
 My Eprom Emulator:
 
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/EPROMemu_large.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/EPROMemu_large.jpg)
 
 
 The files are here:
@@ -47,15 +47,15 @@ I've made a little change to fix the keypad layout. Feels more intuitive. Monito
 
 https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/MON2BV.Bin
 
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/NewKeypad_large.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/NewKeypad_large.jpg)
 
 The changes to the code are:
 
 Redirecting the NMI address (0066h) to 'KeyRemap' (06E0h - Empty area at the end of the ROM). It is important to pad the ROM with data to keep all the addresses in their correct location.
 
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/NMI_large.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/NMI_large.jpg)
 
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/KeyRemap_a10da5b3-1169-4591-a98e-7edc09a49bbc_large.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/KeyRemap_a10da5b3-1169-4591-a98e-7edc09a49bbc_large.jpg)
 
 
 
@@ -67,9 +67,9 @@ https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Snake.rar
 
 My TEC Video Card:
 
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/TEC1D_8x8_large.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/TEC1D_8x8_large.jpg)
 
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/space_large.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/space_large.jpg)
 
 
 A work in progress. The latest FPGA configuration file is HERE
@@ -147,15 +147,15 @@ B1 = Card Inserted (1=Card inserted)
 Peripheral address 1
 SPI Data In or Out. Auto Xfer on writing to Peripheral Port2
 Serial Port:
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/49620918_10155966840465869_8317473652132020224_n.jpg)
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/50416223_10155988682225869_3778409522020745216_n.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/49620918_10155966840465869_8317473652132020224_n.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/50416223_10155988682225869_3778409522020745216_n.jpg)
 
 PS2 Port:
 
  
 
 Speech Board:
-![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/speech_large.jpg)
+![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/speech_large.jpg)
 
 
  
