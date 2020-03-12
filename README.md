@@ -23,6 +23,7 @@ https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Emulator.rar
 Inside you will find the *Unsigned* driver which needs to be installed. If you're on win10 you're in for a frustrating 10minutes! A snappy google will show you how to do it. Note: The procedure changes with most major updates so look for a recent guide. This will probably have to be done after every major update as windows will kick out any unsigned drivers.
 
 ## Included in the RAR archive are:
+![](https://github.com/SteveJustin1963/tec-EMU-BG/blob/master/pics/rar-view.png)
 
 Z80Upload - This is the tool to send a .bin file to the Emulator. Eg. Z80Upload Foo.bin This will automatically hold your Z80 in a reset state, upload the file then release for the TEC to boot the new binary file. There's no offsets implemented so the file will write to the RAM on the emulator from $0000. 
 
