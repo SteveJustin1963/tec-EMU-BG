@@ -1,12 +1,10 @@
 # tec-EMU-BG
+https://github.com/SteveJustin1963/tec-EMU-BG/wiki
+
+
 TEC-1 4k ROM Emulator by Ben Grimmett
 
-
-see wiki for test journal
-
-
-
-
+ 
 
 https://bennvenn.myshopify.com/pages/eprom-emulator
 
