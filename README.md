@@ -1,6 +1,13 @@
 # tec-EMU-BG
 TEC-1 4k ROM Emulator by Ben Grimmett
 
+
+see wiki for test journal
+
+
+
+
+
 https://bennvenn.myshopify.com/pages/eprom-emulator
 
 https://www.facebook.com/pg/TEC-1-Z80-Computer-2109802352631344/photos/?tab=album&album_id=2328021387476105
