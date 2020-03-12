@@ -12,7 +12,7 @@ https://www.facebook.com/pg/TEC-1-Z80-Computer-2109802352631344/photos/?tab=albu
 
 https://www.facebook.com/groups/AusVintage/search/?query=Eprom%20Emulator&epa=SEARCH_BOX
 
-## Copied from BG web site
+## From BG website
 
 A page centred around the Talking Electronics Computer, an Australian designed Z80 based learning computer from the 80's.
 
