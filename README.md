@@ -27,6 +27,10 @@ https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Emulator.rar
 
 Inside you will find the *Unsigned* driver which needs to be installed. If you're on win10 you're in for a frustrating 10minutes! A snappy google will show you how to do it. Note: The procedure changes with most major updates so look for a recent guide. This will probably have to be done after every major update as windows will kick out any unsigned drivers.
 
+Win7 none of these issues
+![](https://github.com/SteveJustin1963/tec-EMU-BG/blob/master/pics/load-drive.png)
+
+
 ## Included in the RAR archive are:
 ![](https://github.com/SteveJustin1963/tec-EMU-BG/blob/master/pics/rar-view.png)
 
