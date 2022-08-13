@@ -168,8 +168,8 @@ Down to.....
   - B1 = Card Inserted (1=Card inserted)
 
 - Peripheral address 1
-- SPI Data In or Out. 
-- Auto Xfer on writing to Peripheral Port2
+  - SPI Data In or Out. 
+  - Auto Xfer on writing to Peripheral Port2
 
 ### Serial Port:
 
