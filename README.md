@@ -150,37 +150,36 @@ Down to.....
 - This is handy for turning them off (selecting a blank tile) 
 - or animation (changing the tile without re-writing new tile data) 
 - as well as multiplexing tiles to draw more than 10 sprites on screen at once.
-
 - Sprites not valid in location 0,0
-
 - When power is first applied, 
 - ChrRAM is pre-loaded with the default DOS ASCII character set 
 - and Vram loaded with a messages on page 0. 
-
-Peripherals : Port5=Peripheral Select, Port6=Data
-
-Interrupt Generator
+- Peripherals : Port5=Peripheral Select, Port6=Data
+- Interrupt Generator
 
 ### SD Port:
-- Peripheral address 0 - Write
-- B0=SPI speed (0=100khz,1=12.5mhz).
-- B1=SD_CS (1=selected).
-- B2=50hz Int Enable (1=Enable)
+- Peripheral address 0 
+- Write
+  - B0=SPI speed (0=100khz,1=12.5mhz).
+  - B1=SD_CS (1=selected).
+  - B2=50hz Int Enable (1=Enable)
+- Read
+  - B0 = SPI Busy (1=ready for new xfer)
+  - B1 = Card Inserted (1=Card inserted)
 
-Read -
-- B0 = SPI Busy (1=ready for new xfer)
-- B1 = Card Inserted (1=Card inserted)
-
-Peripheral address 1
+- Peripheral address 1
 - SPI Data In or Out. 
 - Auto Xfer on writing to Peripheral Port2
 
-Serial Port:
+### Serial Port:
+
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/49620918_10155966840465869_8317473652132020224_n.jpg)
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/50416223_10155988682225869_3778409522020745216_n.jpg)
 
 ### PS2 Port:
+-tba
 
 ### Speech Board:
+
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/speech_large.jpg)
 
