@@ -26,6 +26,7 @@ https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/Emulator.rar
 - Note: The procedure changes with most major updates so look for a recent guide. 
 - This will probably have to be done after every major update as windows will kick out any unsigned drivers.
 - Win7 has none of these issues
+
 ![](https://github.com/SteveJustin1963/tec-EMU-BG/blob/master/pics/load-drive.png)
 
 
