@@ -98,7 +98,7 @@ https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/RAM_bitmap.bin
 - Mode Register = Port3
 - Scroll Register = Port4
 
-### When in Mode0: - Video RAM Access
+## When in Mode0: - Video RAM Access
 - Scroll Register = xPssssss
 - x=dont care
 - P=Page
@@ -107,7 +107,7 @@ https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/RAM_bitmap.bin
 - 32x32 Character off screen area located at 0x1400-17FF
 - 1 Page = 32x64 Characters.
 
-### When in Mode1: - Character RAM Access
+## When in Mode1: - Character RAM Access
 - 2kbytes Character RAM are mapped to 0x1000-0x17FF
 Charaters are drawn as:
 ```
@@ -121,7 +121,7 @@ Charaters are drawn as:
 0bxxxxxxxx ;Byte 7
 ```
 
-### When in Mode2: - Spirte Attribute Access
+## When in Mode2: - Spirte Attribute Access
 - 5 Sprites available
 ```
 0x1000 - Sprite1 X location
@@ -140,7 +140,7 @@ Down to.....
 0x101D - Sprite10 Tile Pointer
 ```
 
-### When in Mode3: - Sprite RAM Access
+## When in Mode3: - Sprite RAM Access
 ```
 0x1000 - 0x1007 Sprite1 Character Data (Tiles)
 Down to.....
@@ -157,7 +157,7 @@ Down to.....
 - Peripherals : Port5=Peripheral Select, Port6=Data
 - Interrupt Generator
 
-### SD Port:
+## SD Port:
 - Peripheral address 0 
 - Write
   - B0=SPI speed (0=100khz,1=12.5mhz).
@@ -171,15 +171,15 @@ Down to.....
   - SPI Data In or Out. 
   - Auto Xfer on writing to Peripheral Port2
 
-### Serial Port:
+## Serial Port:
 
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/49620918_10155966840465869_8317473652132020224_n.jpg)
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/50416223_10155988682225869_3778409522020745216_n.jpg)
 
-### PS2 Port:
+## PS2 Port:
 -tba
 
-### Speech Board:
+## Speech Board:
 
 ![](https://github.com/SteveJustin1963/tec-ROM-EM-BG/blob/master/pics/speech_large.jpg)
 
